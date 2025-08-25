@@ -21,6 +21,6 @@ int main()
 
 	std::cout << me.age << "\t" << me.name << "\t" << me.height << "\n";
 
-	//return 0; 
+	return 0; 
 }
 
