@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{30f9a95e-7b05-4b42-b59c-c4ab23a10fad}</ProjectGuid>
-    <RootNamespace>HelloWorld</RootNamespace>
+    <ProjectGuid>{e326608a-c93f-40dd-b6a2-46f851aecbdb}</ProjectGuid>
+    <RootNamespace>ReadingADataTableFromAnInputFileAndDoingAnalytics</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>August25</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -124,7 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="August25.cpp" />
+    <ClCompile Include="ReadingADataTableFromAnInputFileAndDoingAnalytics.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="someTastyData.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="song.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
