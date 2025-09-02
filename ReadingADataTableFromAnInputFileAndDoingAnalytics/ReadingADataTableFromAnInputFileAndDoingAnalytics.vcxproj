@@ -123,13 +123,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ReadingADataTableFromAnInputFileAndDoingAnalytics.cpp" />
+    <ClCompile Include="demos.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="someTastyData.csv" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="CinderellaPangram-ish.txt" />
     <Text Include="song.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="demos.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

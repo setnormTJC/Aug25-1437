@@ -1,16 +1,12 @@
-// ReadingADataTableFromAnInputFileAndDoingAnalytics.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+#include "demos.h"
 
-#include<fstream>
+#include<fstream> 
 #include <iostream>
 #include <string>
 
-//for now, we'll just read in an input file
-//(because 50% or more of the people in this room can't remember how)
 
 
-
-int main()
+int demoSimpleFileReading()
 {
 	std::cout << "The contents of the file are:\n";
 	//recall: "C://USers/etc is an "absolute" filepath
@@ -22,18 +18,12 @@ int main()
 		return -1; //some arbitrary error code (YOU SHALLL NOTT PASSS!)
 	}
 
-	std::string currentLineInTheFile; 
+	std::string currentLineInTheFile;
 	while (std::getline(inputFileObject, currentLineInTheFile, ','))
 	{
 		std::cout << currentLineInTheFile << "\n";
 	}
 
-	
-
-
-
-
-
+	return 0; //arbitrary-ish return code to indicate success
 
 }
-
