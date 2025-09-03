@@ -32,6 +32,9 @@
     <ClInclude Include="demos.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="dndRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="someTastyData.csv">

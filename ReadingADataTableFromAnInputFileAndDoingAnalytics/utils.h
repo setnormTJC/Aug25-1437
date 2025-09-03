@@ -5,6 +5,8 @@
 
 std::vector<std::string> getFileContents(const std::string& filename);
 
+//std::vector<DNDRecrod> getDNDRecords(filename) 
+
 /*Is this method "inclusive" of the "boundary" indices?*/
 std::string mySubstring(const std::string& originalString, const int startIndex,
 	const int finishIndex);
