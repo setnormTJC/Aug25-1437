@@ -12,20 +12,26 @@
 //(because 50% or more of the people in this room can't remember how)
 
 
+//this code contains lots of "refactoring" of the code I wrote last time 
 
 int main()
 {
 	/*A simple test case of split function:*/
 	//auto abc = splitRecord("a,b,c", ',');
 
-	auto abc = splitRecord_withStringStream("a,b,c", ',');
+	auto fields = splitRecord_withStringStream("first field,second field,third field", ',');
 
-	std::cout << "And how about that one?\n";
+	for (const auto& field : fields)
+		std::cout << field << "\n";
 
-	//std::system("pause"); 
+	std::system("pause"); 
 
+	//Hello, Diego? 
 
+	//std::string myStringy; 
 
+	//std::string::spli
+	//myStringy.spli
 
 	/*Testing `split` with input file*/
 	const std::string filename = "CinderellaPangram-ish.txt";
