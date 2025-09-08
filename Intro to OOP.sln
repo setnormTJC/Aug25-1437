@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "August25", "HelloWorld\Hell
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReadingADataTableFromAnInputFileAndDoingAnalytics", "ReadingADataTableFromAnInputFileAndDoingAnalytics\ReadingADataTableFromAnInputFileAndDoingAnalytics.vcxproj", "{E326608A-C93F-40DD-B6A2-46F851AECBDB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroToTheClassKeyword-Sept8", "IntroToTheClassKeyword-Sept8\IntroToTheClassKeyword-Sept8.vcxproj", "{3618C285-597E-40DC-983C-4A4B8E53449C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{E326608A-C93F-40DD-B6A2-46F851AECBDB}.Release|x64.Build.0 = Release|x64
 		{E326608A-C93F-40DD-B6A2-46F851AECBDB}.Release|x86.ActiveCfg = Release|Win32
 		{E326608A-C93F-40DD-B6A2-46F851AECBDB}.Release|x86.Build.0 = Release|Win32
+		{3618C285-597E-40DC-983C-4A4B8E53449C}.Debug|x64.ActiveCfg = Debug|x64
+		{3618C285-597E-40DC-983C-4A4B8E53449C}.Debug|x64.Build.0 = Debug|x64
+		{3618C285-597E-40DC-983C-4A4B8E53449C}.Debug|x86.ActiveCfg = Debug|Win32
+		{3618C285-597E-40DC-983C-4A4B8E53449C}.Debug|x86.Build.0 = Debug|Win32
+		{3618C285-597E-40DC-983C-4A4B8E53449C}.Release|x64.ActiveCfg = Release|x64
+		{3618C285-597E-40DC-983C-4A4B8E53449C}.Release|x64.Build.0 = Release|x64
+		{3618C285-597E-40DC-983C-4A4B8E53449C}.Release|x86.ActiveCfg = Release|Win32
+		{3618C285-597E-40DC-983C-4A4B8E53449C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
