@@ -8,6 +8,9 @@ struct dndRecord
 	std::string Class; 
 	int level; 
 	std::string favouriteItem; 
+
+
+	//double getAverageLevel(); //we will come back to this!
 };
 //ID,Name,Class,Level,Favorite_Item
 
