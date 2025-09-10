@@ -3,15 +3,14 @@
 
 #include <iostream>
 #include "Person.h"
+#include"demos.h"
 
 int main()
 {
-	Person you; //what's my name here (say my name!) 
+	//demoDefaultConstructorCalling(); 
 
-	std::cout << "Your name is initially: " << you.getName() << "\n";
-	//you.name = { 37, 69.5, "Seth", "TJCool" };
+	Person me(37, 69.5, "Sepharoo", "Tjcool");
 
-	//you.name = "Seth"; 
+	me.printAllMemberVariables(); 
 
-	you.setName("jghjkcsvkjfdsagkjdasfkjldasfjkldafsjklhdasfjklhdasfjlkh2132633473838338");
 }

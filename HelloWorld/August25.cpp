@@ -11,7 +11,7 @@ struct Person //this is OOP (object-oriented programming)
 
 	float height{}; //inches
 
-	std::string name{};// = ""; //empty string 
+	std::string m_name{};// = ""; //empty string 
 
 	//padding can optimize (minimize) the amount of space that a struct object takes up in RAM
 
@@ -52,10 +52,10 @@ int main()
 
 	//5 + 2
 
-	std::cout << me.age << "\t" << me.name << "\t" << me.height << "\n";
+	std::cout << me.age << "\t" << me.m_name << "\t" << me.height << "\n";
 
 	std::cout << "The OTHER person's deets: "
-		<< thee.name << "\t" << thee.age << "\t" << thee.height << "\n";
+		<< thee.m_name << "\t" << thee.age << "\t" << thee.height << "\n";
 
 	//an alternative approach to storing those names and ages
 	std::vector<std::string> names = { "Seth", "Jacob" };
